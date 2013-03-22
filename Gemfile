@@ -12,7 +12,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem "capybara"
+  gem "capybara" , '1.1.2'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
