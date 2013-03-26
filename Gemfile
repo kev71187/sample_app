@@ -16,6 +16,9 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
 end
+group :development do
+  gem 'annotate', '2.5.0'
+end
 
 
 # Gems used only for assets and not required
